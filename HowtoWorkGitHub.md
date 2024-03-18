@@ -38,7 +38,8 @@ if the file is changed it needs to be added again
 
 	`git log`
 
-leave `git log` by pressing q
+leave `git log` by pressing `q`
+
 the commit showing origin/main Head/main is where the remote repository is
 
 6. push file = add it to the REMOTE Repository
