@@ -46,18 +46,20 @@ the commit showing origin/main Head/main is where the remote repository is
 
 	`git push`
 
-username is my username
-password is my token that I generated for this repository
+- username is my username
+- password is my token that I generated for this repository
+ - in the main settings go to `Developer Settings` at the very bottom
+ - under `Fine grained token` generate the token and **remember to copy and safe it** 	
 
-If this doesn't work try deleting the safed token from the Schlüsselbundverwaltung:
+My Mac saves the credentials in the Keychain Manager. When I change the repository I am working on/
+
+If this doesn't work try deleting the saved token from the Schlüsselbundverwaltung:
 
 - Open Keychain Access app.
 - Search for github.com
 - Delete the information of other users/repositories
 
 ![Keychain](https://github.com/LisaR103/KursGitIntro/blob/main/KeychainAccess.png)
-
-I only have to put in the password 1x per session
 
 7. pull file = update *from* remote repository
 
